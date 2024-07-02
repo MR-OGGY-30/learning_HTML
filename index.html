@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>html tutorials</title> 
+  <!--favicons are the logo of website shown besite the title of the site-->
+  <link rel="icon" type="image/gif"  href="/images/programming.gif">
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+  <!--link for java -->
+  <!-- Project -->
+  <script src="main.js"></script>
+  
+  <h1 id="home">my first heading</h1>
+  <b>my first paragraph</b>
+  <h2 class="h22">this is heading 2</h2>
+  <h3>this is heading 3</h3>
+  <h4>this is heading 4</h4>
+  <h5>this is heading 5</h5>
+  <h6>this is heading 6</h6>
+  <!-- <a></a> tag is to put a link-->
+  <a href="https://www.facebook.com">facebook link</a>
+  <a href="https://www.youtube.com">https://www.youtube.com</a>
+  <!-- <img src="" alt=""> use to put image src is the source link and alt is the alternative text -->
+  <br> <!-- for breaking the line-->
+  <img src="oggy.jpg" alt="image of oggy" width = "50" height="50" >
+  <!-- otherwise we can use separate css for styling the image -->
+  <h2 class="title" title="I'm a header">The title Attribute</h2>
+  
+  <p title="I'm a tooltip">Mouse over this paragraph, to display the title attribute as a tooltip.</p>
+  
+  <!--forhorizontal line we use <hr> it is an empty tag-->
+  <hr>
+  <p class="p">hello guys</p>
+  <hr>
+  
+  <p>the pre tag contains both spaces line break</p>
+  <pre>
+  Bonnie lies over the ocean.
+  
+  Bonnie lies over the sea.
+  
+  Bonnie lies over the ocean.
+     
+   Oh, bring back my Bonnie to me.
+  </pre>
+  <!--inline css format <tagname style = "property : value;"> -->
+    
+  <h5>this is a co;oured heading using inline css</h5>
+  <!--
+  HTML Formatting Elements
+  Formatting elements were designed to display special types of text:
+  
+  <b> - Bold text
+  <strong> - Important text
+  <i> - Italic text
+  <em> - Emphasized text
+  <mark> - Marked text
+  <small> - Smaller text
+  <del> - Deleted text
+  <ins> - Inserted text
+  <sub> - Subscript text
+  <sup> - Superscript text
+  -->
+  
+  <h2 class="hello">hello utsa</h2>
+  <!-- a link can be contained by text image or etc-->
+  <!-- for adding a link we use <a href=""></a> -->
+  <a class = "xyz" href="https://www.youtube.com">youtube link</a>
+  <br>
+  
+  <a href="https://www.facebook.com" target="_self"><img class ="youtube" src="oggy.jpg" alt="oggy.jpg"></a>
+  
+  <a href="https://www.facebook.com" target="_blank"><img class ="youtube" src="oggy.jpg" alt="oggy.jpg"></a>
+  
+  <a href="https://www.facebook.com" target="_parent"><img class ="youtube" src="oggy.jpg" alt="oggy.jpg"></a>
+  
+  <a href="https://www.facebook.com" target="_top"><img class ="youtube" src="oggy.jpg" alt="oggy.jpg"></a>
+  
+  <!--The target attribute specifies where to open the linked document.
+  The target attribute can have one of the following values:
+  
+  _self - Default. Opens the document in the same window/tab as it was clicked
+  _blank - Opens the document in a new window or tab
+  _parent - Opens the document in the parent frame
+  _top - Opens the document in the full body of the window
+  -->
+  
+  <!-- absolute url access external web and relative url access internal documents-->
+  <!--relative url-->
+  <a href="oggy.jpg">oggy image</a>
+  <!--Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email)-->
+  <h2>to send a mail</h2>
+  <a href="mailto:sanjaykumar.balika@gmail.com">mail to sanjay adhikary</a>
+  <!--we can use subject and body for massage-->
+  <a href="mailto:sanjaykumar.balika@gmail.com?subject=hello&body=this%20is%20a%20test%20email">mail to sanjay adhikary</a>
+  
+  <!--button as a link-->
+  <button id="mail" class="button1" onclick ="documen.location='mailto:sanjaykumar.balika@gmail.com?subject=this%20is%20a%20test%20email&body=good%20morning'">Send mail to Sanjay Kumar</button>
+  
+  <!--another method-->
+  
+  <a href="mailto:sanjaykumar.balka@gmail.com?subject=this%20is%20a%20test%20email&body=good%20morning"><button class="button1">Send mail to Sanjay Kumar</button></a>
+  
+ <!-- we can change the coor of link text-->
+  
+  <a class="link2" href="https://instagram./com">instagram</a>
+  <!--creating a bookmark give an id and call the id-->
+  <a href="#ch4">go to chapter 4</a>
+  <br>
+  <a href="#ch10">go to chapter 10</a>
+  <h2>Chapter 1</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  <h2>Chapter 2</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  <h2>Chapter 3</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  <h2 id="ch4">Chapter 4</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  <h2>Chapter 9</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  <h2 id="ch10">Chapter 10</h2>
+  <p>This chapter explains ba bla bla</p>
+  
+  
+  <!--You can also add a link to a bookmark on another page:
+  
+  <a href="html_demo.html#C4">Jump to Chapter 4</a>
+  -->
+
+  <img src="/images/html5.jpg" alt ="html5 image">
+  <br>
+  <!--images from any outer source-->
+  <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="w3school.com">
+  <!--html alloes animated images i.e. gif-->
+  <img class="gif" src="/images/programming.gif" alt="programming gif">
+  <!--use float property to float a image to left or right of a text-->
+  <p><img class="floatL" src="oggy.jpg" alt="oggy.jpg">this is a paragraph. this is a paragraphs is a paragraph. this is a paragraph</p>
+  <p><img class="floatR" src="oggy.jpg" alt="oggy.jpg">this is a paragraph. this is a paragraphs is a paragraph. this is a paragraph</p>
+  The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+  <p class="floatlaptop"><img class="mapping" src="/images/workplace.jpg"  alt="workplace.jpg" usemap = #workplace>click on laptop to visit wikipedia page</p>
+  <map name="workplace">
+    <area shape="rect" coords="10 10 80 90" href="https://wikipedia.com" alt="wikipedia page"></map>
+  
+    
+  <!-- adding a background image in paragraph if the dimension of image lerss than the parent element the the image will repeat itself
+   -->
+   <p class="pimage">
+    it is a oggy image  
+    it is a oggy image  
+    it is a oggy image  
+    it is a oggy image  
+    it is a oggy image 
+    it is a oggy image  
+    it is a oggy image</p>
+    
+  <!-- if you want background image in whole page then add image in body -->
+  <!-- 
+  making a body data table
+   <td> id table data <tr> is table row <th> is table heading-->
+   
+  <table class="table1">
+   <caption>Body data</caption>
+   <tr>
+     <th>Name</th>
+     <th>Weight</th>
+     <th>Height</th>
+   </tr>
+   <tr>
+     <td>Utsa Adhikary</td>
+     <td>65 KG</td>
+     <td>176 CM</td>
+   </tr>
+   <tr>
+     <td>Anushka Adhikary</td>
+     <td>80 KG</td>
+     <td>150 CM</td>
+   </tr>
+   <tr>
+     <td>Sneha Adhikary</td>
+     <td>45 KG</td>
+     <td>120 CM</td>
+   </tr>
+     </table>    
+    
+    
+  <table class="table1">
+    <caption>TIME TABLE</caption>
+    <tr>
+      <th></th>
+      <th>1st class</th>
+      <th>2nd class</th>
+      <th>3rd class</th>
+      <th>4th class</th>
+      <th>5th class</th>
+    </tr>
+    <tr>
+      <th>6 am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9 am</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>12 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3 pm</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>  
+  <!-- use the colspan attribute on the <th> element for single header of multiple column -->
+  
+  <table class ="table1">
+    <caption>single header for multiple column</caption>
+    <tr>
+      <th colspan = "2">Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td rowspan="2">Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <!-- <td>Jackson</td> -->
+      <td>94</td>
+    </tr>
+  </table>
+  <h3>unodered list</h3>
+  <!--we can choose the marker of the unodered list using list-style-type in css-->
+  <ul class="ul1">
+    <li>mango</li>
+    <li>banana</li>
+    <li>balls</li>
+    <li>cakes</li>
+  </ul>
+  <h3>odered list</h3>
+<!--   Control List Counting
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute: -->
+  <ol class="ol1" type="default" start="50">
+    <li>mango</li>
+    <li>banana</li>
+    <li>balls</li>
+    <li>cakes</li>
+    <li>vagetables</li>
+  </ol>
+  
+  <h3>HTML description list</h3>
+  <!--<dt> is description term and <dd> is descrip[tion-->
+  <dl>
+    <dt>Mango</dt>
+    <dd>Mango is the king of fruits</dd>
+    <dt>Lion</dt>
+    <dd>Lion is the king of jungle</dd>
+  </dl>
+  
+  <h3>nasted list</h3>
+  <ol>
+    <li>cofee</li>
+    <li>tea</li>
+      <ul style="list-style-type:disc;">
+        <li>black tea</li>
+        <li>green tea</li>
+      </ul>
+    <li>milk</li>
+  </ol>   
+  <h3>horizontal list</h3>
+  <h4>use to make navigation mwnu in website</h4>
+  <ul class="menu">
+    <li class="menu-li">Home</li>
+    <li class="menu-li">gallary</li>
+    <li class="menu-li" >contacts</li>
+    <li class="menu-li">about</li>
+  </ul>
+  <br>
+  <div class="div1">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+    <p>London has over 13 million inhabitants.</p>
+  </div>
+  <br>
+  <div class="div2">
+    <h2>Oslo</h2>
+    <p>Oslo is the capital city of Norway.</p>
+    <p>Oslo has over 600.000 inhabitants.</p>
+  </div>
+  <br>
+  <div class="div3">
+    <h2>Rome</h2>
+    <p>Rome is the capital city of Italy.</p>
+    <p>Rome has almost 3 million inhabitants.</p>
+  </div>
+  <br>
+  <div class="div4">
+  
+    <div class="div4-1">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>London has over 13 million inhabitants.</p>
+    </div>
+  
+    <div class="div4-2">
+      <h2>Oslo</h2>
+      <p>Oslo is the capital city of Norway.</p>
+      <p>Oslo has over 600.000 inhabitants.</p>
+    </div>
+  
+    <div class="div4-3">
+      <h2>Rome</h2>
+      <p>Rome is the capital city of Italy.</p>
+      <p>Rome has almost 3 million inhabitants.</p>
+    </div>
+  </div>
+  <h1>Flexbox Example</h1>
+  
+  <p>Align three DIV elements side by side.</p>
+  <br>
+  <div class="div5">
+  
+    <div style="background-color:#FFF4A3;">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>London has over 13 million inhabitants.</p>
+    </div>
+  
+    <div style="background-color:#FFC0C7;">
+      <h2>Oslo</h2>
+      <p>Oslo is the capital city of Norway.</p>
+      <p>Oslo has over 600.000 inhabitants.</p>
+    </div>
+  
+    <div style="background-color:#D9EEE1;">
+      <h2>Rome</h2>
+      <p>Rome is the capital city of Italy.</p>
+      <p>Rome has almost 3 million.</p>
+    </div>
+  
+  </div>
+  <h1>Grid Example</h1>
+  
+  <p>Align three DIV elements side by side.</p>
+  
+  <div class="div6">
+  
+    <div style="background-color:#FFF4A3;">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>London has over 13 million inhabitants.</p>
+    </div>
+  
+    <div style="background-color:#FFC0C7;">
+      <h2>Oslo</h2>
+      <p>Oslo is the capital city of Norway.</p>
+      <p>Oslo has over 600.000 inhabitants.</p>
+    </div>
+  
+    <div style="background-color:#D9EEE1;">
+      <h2>Rome</h2>
+      <p>Rome is the capital city of Italy.</p>
+      <p>Rome has almost 3 million inhabitants.</p>
+    </div>
+  
+  </div>
+  <h2>html ifreame</h2>
+  <iframe name="iframe_2" class="iframe1" src="link.html" frameborder="0">index.html</iframe>
+  <p><a href="https://www.wikipedia.org" target="iframe_2">Wikipedia</a></p>
+  <iframe class="iframe1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.091293808322!2d-122.41941518468195!3d37.7749297797585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5ef0e5d5%3A0xf4f6c2e3bb1e6e0b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1600801213213!5m2!1sen!2s" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <!--An iframe can be used as the target frame for a link.
+  
+  The target attribute of the link must refer to the name attribute of the iframe:-->
+  <iframe name="iframe_a" class="iframe1" src="index.html" frameborder="0">index.html</iframe>
+
+</body>
+</html>
